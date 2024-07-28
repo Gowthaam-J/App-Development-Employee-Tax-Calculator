@@ -1,0 +1,85 @@
+{
+    "headers": [
+      "ID",
+      "Employee ID",
+      "Employee Name",
+      "Allowance Type",
+      "Amount",
+      "Exempt Amount",
+      "Taxable Amount",
+      "Status"
+    ],
+    "data": [
+      {
+        "id": 1,
+        "employeeID": "E1234",
+        "employeeName": "John Doe",
+        "allowanceType": "House Rent Allowance (HRA)",
+        "amount": 30000,
+        "exemptAmount": 20000,
+        "taxableAmount": 10000,
+        "status": "Filed"
+      },
+      {
+        "id": 2,
+        "employeeID": "E1235",
+        "employeeName": "Jane Smith",
+        "allowanceType": "Leave Travel Allowance (LTA)",
+        "amount": 15000,
+        "exemptAmount": 15000,
+        "taxableAmount": 0,
+        "status": "Filed"
+      },
+      {
+        "id": 3,
+        "employeeID": "E1236",
+        "employeeName": "Sam Wilson",
+        "allowanceType": "Conveyance Allowance",
+        "amount": 1600,
+        "exemptAmount": 1600,
+        "taxableAmount": 0,
+        "status": "Filed"
+      },
+      {
+        "id": 4,
+        "employeeID": "E1237",
+        "employeeName": "Sara Connor",
+        "allowanceType": "Medical Allowance",
+        "amount": 1250,
+        "exemptAmount": 1250,
+        "taxableAmount": 0,
+        "status": "Pending"
+      },
+      {
+        "id": 5,
+        "employeeID": "E1238",
+        "employeeName": "Bruce Wayne",
+        "allowanceType": "Children Education Allowance",
+        "amount": 200,
+        "exemptAmount": 200,
+        "taxableAmount": 0,
+        "status": "Filed"
+      },
+      {
+        "id": 6,
+        "employeeID": "E1239",
+        "employeeName": "Clark Kent",
+        "allowanceType": "Food Coupons/Meal Allowance",
+        "amount": 2200,
+        "exemptAmount": 2200,
+        "taxableAmount": 0,
+        "status": "Filed"
+      },
+      {
+        "id": 7,
+        "employeeID": "E1240",
+        "employeeName": "Diana Prince",
+        "allowanceType": "Uniform Allowance",
+        "amount": 1500,
+        "exemptAmount": 1500,
+        "taxableAmount": 0,
+        "status": "Pending"
+      }
+    ]
+  }
+  

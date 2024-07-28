@@ -1,0 +1,43 @@
+.head{
+    font-family: myfont;
+    font-size: 3rem;
+    /* background-color:blue; */
+    font-weight: 600;
+    width: 35rem;
+    align-items: flex-start;
+    margin-left: 7rem;
+}
+.flex1{
+    display: flex;
+    padding: 2rem;
+    /* background-color: azure; */
+}
+.logo{
+    /* margin-left: 13rem; */
+    margin-right: 7rem;
+    /* background-color: aqua; */
+}
+.wrap{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    justify-content:space-between;
+    margin-right: 5rem;
+    height: auto;
+}
+.body{
+    font-family: myfont;
+    /* background-color: aliceblue; */
+    justify-content: center;
+    align-items: flex-end;
+    font-size: large;
+    width: 20;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url('D:\\APP_DEVELOPMENT\\emptax\\src\\Signika-VariableFont_GRAD,wght.ttf');
+}
+
+

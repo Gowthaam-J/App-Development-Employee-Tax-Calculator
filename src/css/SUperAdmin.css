@@ -1,0 +1,133 @@
+
+  .form-container {
+      background: url('D:\APP_DEVELOPMENT\emptax\src\pexels-hngstrm-1939485.jpg') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+    padding: 20px;
+    border-radius: 10px;
+    /* background: rgb(241, 241, 241); */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    animation: fadeIn 1s forwards;
+    font-weight: bolder;
+    color: black;
+  }
+  .animated-background {
+    background: url('D:\APP_DEVELOPMENT\emptax\src\pexels-michaela-87369-295826 (3).jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  
+  
+  .title {
+    opacity: 0;
+    animation: fadeInDown 1s forwards;
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.2s;
+    transition: transform 0.2s;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.9s;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .submit-button:hover {
+    background-color: #ff7e5f;
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+  
+  /* Additional Background Effects */
+  @keyframes moveBg {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes rotateBg {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .background-effect:nth-child(2) {
+    top: auto;
+    bottom: -50px;
+    left: auto;
+    right: -50px;
+    animation: moveBg 8s infinite ease-in-out, rotateBg 15s infinite linear;
+  }
+  
+  .background-effect:nth-child(3) {
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    animation: moveBg 12s infinite ease-in-out, rotateBg 25s infinite linear;
+  }
+  TextField{
+    color: black;
+    font-weight: bolder;
+  }

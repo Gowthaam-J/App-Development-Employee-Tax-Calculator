@@ -1,0 +1,139 @@
+
+.whole{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* background-color: aquamarine; */
+    padding: 1rem;
+    background-color:#CAF4FF;
+
+}
+.left-part{
+    width: 20rem;
+    height: 40rem;
+    background-color: #050C9C;
+    color: azure;
+    /* background-color: antiquewhite; */
+    border-radius: 2rem;
+}
+.right-part{
+    width: 40rem;
+    height: 20rem;
+    margin-left: 5rem;
+    /* background-color: aqua; */
+}
+.left-top{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+@font-face {
+    font-family: myfont3;
+    src: url('D:\\APP_DEVELOPMENT\\emptax\\src\\Signika-VariableFont_GRAD,wght.ttf');
+}
+@font-face{
+    font-family: myfont4;
+    src: url('D:\\APP_DEVELOPMENT\\emptax\\src\\MaisonNeue-Demi.ttf');
+}
+.top1{
+    font-family: myfont3;
+    font-size: 3rem;
+}
+.top2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem;
+}
+.Name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+.left-bottom{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(169, 169, 195); */
+    justify-content: center;
+    gap: 1rem;
+}
+.elements{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+    font-size: medium;
+}
+.right-part{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+
+
+}
+.body2{
+    font-family: myfont4;
+    font-weight: bolder;
+    color: #180161;
+}
+.main {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .whole {
+    display: flex;
+    width: 100%;
+  }
+  
+  .left-top {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .top2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilepic {
+    margin-right: 1rem;
+  }
+  
+  .Name {
+    font-size: 1.2rem;
+  }
+  
+  .left-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button {
+    margin-bottom: 0.5rem;
+  }
+  
+  .elements {
+    text-align: left;
+  }
+  
+  .right-part {
+    width: 80%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .right-part .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+  }
+  

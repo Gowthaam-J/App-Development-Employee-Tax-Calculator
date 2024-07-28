@@ -1,0 +1,85 @@
+{
+    "headers": [
+      "ID",
+      "Employee ID",
+      "Employee Name",
+      "Deduction Type",
+      "Amount",
+      "Max Limit",
+      "Eligible Amount",
+      "Status"
+    ],
+    "data": [
+      {
+        "id": 1,
+        "employeeID": "E1234",
+        "employeeName": "John Doe",
+        "deductionType": "Section 80C",
+        "amount": 150000,
+        "maxLimit": 150000,
+        "eligibleAmount": 150000,
+        "status": "Filed"
+      },
+      {
+        "id": 2,
+        "employeeID": "E1235",
+        "employeeName": "Jane Smith",
+        "deductionType": "Section 80D",
+        "amount": 25000,
+        "maxLimit": 25000,
+        "eligibleAmount": 25000,
+        "status": "Filed"
+      },
+      {
+        "id": 3,
+        "employeeID": "E1236",
+        "employeeName": "Sam Wilson",
+        "deductionType": "Section 80E",
+        "amount": 50000,
+        "maxLimit": "N/A",
+        "eligibleAmount": 50000,
+        "status": "Filed"
+      },
+      {
+        "id": 4,
+        "employeeID": "E1237",
+        "employeeName": "Sara Connor",
+        "deductionType": "Section 80G",
+        "amount": 20000,
+        "maxLimit": "Depends",
+        "eligibleAmount": 20000,
+        "status": "Pending"
+      },
+      {
+        "id": 5,
+        "employeeID": "E1238",
+        "employeeName": "Bruce Wayne",
+        "deductionType": "Section 80TTA",
+        "amount": 10000,
+        "maxLimit": 10000,
+        "eligibleAmount": 10000,
+        "status": "Filed"
+      },
+      {
+        "id": 6,
+        "employeeID": "E1239",
+        "employeeName": "Clark Kent",
+        "deductionType": "Section 80CCD",
+        "amount": 50000,
+        "maxLimit": 50000,
+        "eligibleAmount": 50000,
+        "status": "Filed"
+      },
+      {
+        "id": 7,
+        "employeeID": "E1240",
+        "employeeName": "Diana Prince",
+        "deductionType": "Section 80D",
+        "amount": 15000,
+        "maxLimit": 25000,
+        "eligibleAmount": 15000,
+        "status": "Pending"
+      }
+    ]
+  }
+  

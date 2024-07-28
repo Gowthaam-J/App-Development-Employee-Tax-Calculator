@@ -1,0 +1,23 @@
+{
+  "headers": ["ID", "Employee ID", "Employee Name", "Department", "Joining Date", "Role", "Status"],
+  "data": [
+    {
+      "id": 1,
+      "employeeID": "E001",
+      "employeeName": "Dave Johnson",
+      "department": "Finance",
+      "joiningDate": "2021-01-15",
+      "role": "Manager",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "employeeID": "E002",
+      "employeeName": "Jane Smith",
+      "department": "HR",
+      "joiningDate": "2020-06-23",
+      "role": "Recruiter",
+      "status": "Active"
+    }
+  ]
+}
